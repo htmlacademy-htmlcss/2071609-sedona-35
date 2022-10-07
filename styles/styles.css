@@ -41,13 +41,14 @@ body {
 .advantages-title {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
-  line-height: 36px;
+  line-height: 28px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
+
 .advantages-description {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -56,9 +57,11 @@ body {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  color: #333333;
+  color: #FFFFFF;
+
 }
-.button-all {
+
+s .button-all {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   line-height: 36px;
@@ -80,10 +83,13 @@ body {
   background: #82B3D3;
   text-decoration: none;
   text-transform: uppercase;
+  background-position: center;
 }
+
 .page-footer {
   background: #FFFFFF;
 }
+
 .footer-contacts-address-phone {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -96,12 +102,14 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .footer-social-list {
   color: #83B3D3;
   background: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .product-card-link {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -112,9 +120,235 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .product-list {
   background: #FFFFFF;
 }
+
 .content ul {
   background: #FFFFFF;
 }
+
+.inner-header-title {
+  background-image: url("../images/catalog-mountains.jpg");
+  width: 1200px;
+  height: 412px;
+  background-position: center;
+}
+
+.newsletter-form {
+  background-image: url("../images/mauten-subskraibe.jpg");
+  width: 1200px;
+  height: 414px;
+  background-position: left;
+}
+
+.Subscribe {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 258px 104px;
+  gap: 10px;
+  width: 1200px;
+  height: 415px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.catalog-filter-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.pagination-link {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.about-text {
+  background-image: url("../images/logo-HTMLAcademy.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-want-here {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  gap: 10px;
+  border-radius: 4px;
+  width: 160px;
+  height: 36px;
+}
+
+.button-show-icons {
+  background-image: url("../images/button-show-icons.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-show-slides {
+  background-image: url("../images/button-show-slides.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-show-list {
+  background-image: url("../images/button-show-list.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-apply {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-position: center;
+}
+
+.button-reset {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-position: center;
+}
+
+.button-search-hotels-in-sedona {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  position: absolute;
+  width: 376px;
+  height: 52px;
+  border-radius: 4px;
+}
+
+.real-town {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  background-color: #82B3D3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.real-town-advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.diable-bridge {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+  background-color: #82B3D3;
+}
+
+.small-area {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: none;
+  color: black;
+  background-color: #83B3D3;
+}
+
+.beautiful-road {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background: #83B3D3;
+}
+
+.beautiful-road-advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  background: #83B3D3;
+}
+
+.few-tourists {}
