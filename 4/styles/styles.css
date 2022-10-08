@@ -166,7 +166,7 @@ s .button-all {
 }
 
 .catalog-filter-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -174,7 +174,7 @@ s .button-all {
 }
 
 .control-input {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -182,7 +182,7 @@ s .button-all {
 }
 
 .pagination-link {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -199,7 +199,7 @@ s .button-all {
 }
 
 .button-want-here {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -264,7 +264,7 @@ s .button-all {
 }
 
 .button-search-hotels-in-sedona {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -287,7 +287,7 @@ s .button-all {
 }
 
 .real-town {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -310,15 +310,27 @@ s .button-all {
 .diable-bridge {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
-  font-size: 22px;
-  line-height: 26px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
-  color: white;
-  background-color: #82B3D3;
+  color: #ffffff;
+  background: #83B3D3;
+}
+
+.diable-bridge-advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background: #83B3D3;
 }
 
 .small-area {
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -335,7 +347,6 @@ s .button-all {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  text-transform: uppercase;
   color: #000000;
   background: #83B3D3;
 }
@@ -351,4 +362,36 @@ s .button-all {
   background: #83B3D3;
 }
 
-.few-tourists {}
+.few-tourists {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #333333;
+  background: #83B3D3;
+}
+
+.few-tourists-advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  background: #83B3D3;
+}
+
+.Button-more-detailed {
+  background-image: url("../images/Button-more-detailed.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.Button-to-favorites {
+  background-image: url("../images/Button-to-favorites.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
