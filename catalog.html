@@ -24,14 +24,14 @@
             <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
+        <ul class="navigation-item navigation-user">
+          <li class="navigation-link-search">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
+          <li class="navigation-link-heart">
+            <a class="navigation-link-heart" href="#">
               <span class="visually-hidden">Сердечко</span>
             </a>
           </li>
@@ -104,8 +104,8 @@
       </section>
       <p class="catalog-products">Стоимость,₽:</p>
       <input type="range" min="0" max="9000">
-      <input class="field" placeholder="От" required>
-      <input class="field" placeholder="До" required>
+      <input class="field-from" placeholder="От" required>
+      <input class="field-before" placeholder="До" required>
       <button class="button-apply" type="submit">
         Применить
       </button>
@@ -143,7 +143,7 @@
             <a class="Button-more-detailed" href="#">Подробнее</a>
             <a class="Button-to-favorites" href="#">Избранное</a>
             <span class="star">★ ★ ★ ★</span>
-            <span class="top">Рейтинг:8,5</span>
+            <span class="top">РЕЙТИНГ:8,5</span>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -156,7 +156,7 @@
             <a class="Button-more-detailed" href="#">Подробнее</a>
             <a class="Button-to-favorites" href="#">Избранное</a>
             <span class="star">★ ★ ★ ★</span>
-            <span class="top">Рейтинг:9,2</span>
+            <span class="top">РЕЙТИНГ:9,2</span>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -168,7 +168,7 @@
             <a class="Button-more-detailed" href="#">Подробнее</a>
             <a class="Button-to-favorites" href="#">Избранное</a>
             <span class="star">★ ★ ★</span>
-            <span class="top">Рейтинг:6,9</span>
+            <span class="top">РЕЙТИНГ:6,9</span>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -180,7 +180,7 @@
             <a class="Button-more-detailed" href="#">Подробнее</a>
             <a class="Button-to-favorites" href="#">Избранное</a>
             <span class="star">★ ★</span>
-            <span class="top">Рейтинг:5,0</span>
+            <span class="top">РЕЙТИНГ:5,0</span>
           </li>
         </ul>
         <ul class="pagination">
@@ -211,11 +211,13 @@
           </li>
         </ul>
       </section>
+      <h3 class="Subscribe">Подпишитесь на рассылку</h3>
+      <p class="advantages-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
         </label>
-        <button class="button newsletter-button" type="submit" class="button">
+        <button class="button-newsletter" type="submit" class="button">
           Подписаться
         </button>
       </form>
