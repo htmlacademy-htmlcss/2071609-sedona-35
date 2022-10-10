@@ -49,7 +49,7 @@ body {
   color: #000000;
   background: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .advantages-title {
@@ -59,8 +59,16 @@ body {
   font-weight: 700;
   font-size: 24px;
   text-align: center;
-  text-transform: uppercase;
   color: #000000;
+}
+
+.advantages-description-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
 }
 
 .advantages-description {
@@ -69,9 +77,7 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-transform: uppercase;
   color: #333333;
-
 }
 
 .button-all {
@@ -83,7 +89,7 @@ body {
   color: #FFFFFF;
   background: #756157;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .newsletter-button {
@@ -95,7 +101,7 @@ body {
   color: #FFFFFF;
   background: #82B3D3;
   text-decoration: none;
-  text-transform: uppercase;
+
   background-position: center;
 }
 
@@ -113,7 +119,7 @@ body {
   color: #000000;
   background: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .product-card-title {
@@ -124,7 +130,7 @@ body {
   line-height: 28px;
   color: #000000;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .inner-header-title {
@@ -147,7 +153,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
 
   display: flex;
@@ -161,6 +167,16 @@ body {
   flex: none;
   order: 4;
   flex-grow: 0;
+}
+
+.Subscribe-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 .catalog-filter-title {
@@ -187,7 +203,7 @@ body {
   line-height: 36px;
   color: #000000;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .button-want-here {
@@ -239,7 +255,6 @@ body {
   color: #FFFFFF;
   background: #82B3D3;
   text-decoration: none;
-  text-transform: uppercase;
   background-position: center;
 }
 
@@ -251,7 +266,6 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
   background-position: center;
 }
 
@@ -278,19 +292,7 @@ body {
   border-radius: 4px;
 }
 
-.advantages {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: white;
-  background-color: #82B3D3;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.advantages-values {
+.advantages-values-white {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -373,7 +375,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .Button-to-favorites {
@@ -384,7 +386,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-  text-transform: uppercase;
+
 }
 
 .field-from {
@@ -402,5 +404,23 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  color: #000000;
+}
+
+.advantages-white {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.advantages-values {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;
 }
