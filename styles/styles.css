@@ -54,10 +54,10 @@ body {
 
 .advantages-title {
   font-family: "PT Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   color: #000000;
 }
@@ -134,20 +134,6 @@ line-height: 36px;
   color: #000000;
   text-decoration: none;
 
-}
-
-.inner-header-title {
-  background-image: url("../images/catalog-mountains.jpg");
-  width: 1200px;
-  height: 412px;
-  background-position: center;
-}
-
-.newsletter-form {
-  background-image: url("../images/mauten-subskraibe.jpg");
-  width: 1200px;
-  height: 414px;
-  background-position: left;
 }
 
 .subscribe {
@@ -429,6 +415,7 @@ line-height: 36px;
   line-height: 21px;
   color: #000000;
 }
+
 .button-newsletter {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -443,9 +430,9 @@ line-height: 36px;
 
 .select-control {
   font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
 }
