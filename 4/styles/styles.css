@@ -55,9 +55,9 @@ body {
 .advantages-title {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
-  line-height: 28px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   color: #000000;
 }
@@ -69,6 +69,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .advantages-description {
@@ -78,6 +79,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-align: center;
+
 }
 
 .button-all {
@@ -133,29 +136,15 @@ body {
 
 }
 
-.inner-header-title {
-  background-image: url("../images/catalog-mountains.jpg");
-  width: 1200px;
-  height: 412px;
-  background-position: center;
-}
-
-.newsletter-form {
-  background-image: url("../images/mauten-subskraibe.jpg");
-  width: 1200px;
-  height: 414px;
-  background-position: left;
-}
-
-.Subscribe {
+.subscribe {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  text-transform: uppercase;
   text-align: center;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,7 +158,7 @@ body {
   flex-grow: 0;
 }
 
-.Subscribe-white {
+.subscribe-white {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -177,6 +166,7 @@ body {
   line-height: 36px;
   color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .catalog-filter-title {
@@ -286,7 +276,6 @@ body {
   align-items: center;
   padding: 8px 50px;
   gap: 10px;
-  position: absolute;
   width: 376px;
   height: 52px;
   border-radius: 4px;
@@ -335,6 +324,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .top {
@@ -367,7 +357,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.Button-more-detailed {
+.button-more-detailed {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -378,7 +368,7 @@ body {
 
 }
 
-.Button-to-favorites {
+.button-to-favorites {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -408,12 +398,13 @@ body {
 }
 
 .advantages-white {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .advantages-values {
@@ -423,4 +414,25 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+
+.button-newsletter {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+  background-position: center;
+}
+
+.select-control {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
 }
