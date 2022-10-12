@@ -1,0 +1,438 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.page-header {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.advantages-description-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.advantages-description {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+
+}
+
+.button-all {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #756157;
+  text-decoration: none;
+
+}
+
+.newsletter-button {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+
+  background-position: center;
+}
+
+.page-footer {
+  background: #FFFFFF;
+}
+
+.footer-contacts-address-phone {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  background: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.product-card-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.subscribe {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 258px 104px;
+  gap: 10px;
+  width: 1200px;
+  height: 415px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.subscribe-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.button-want-here {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  gap: 10px;
+  border-radius: 4px;
+  width: 160px;
+  height: 36px;
+}
+
+.button-show-icons {
+  background-image: url("../images/button-show-icons.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-show-slides {
+  background-image: url("../images/button-show-slides.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-show-list {
+  background-image: url("../images/button-show-list.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.button-apply {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+  background-position: center;
+}
+
+.button-reset {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-position: center;
+}
+
+.button-search-hotels-in-sedona {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  width: 376px;
+  height: 52px;
+  border-radius: 4px;
+}
+
+.advantages-values-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.control {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.catalog-products {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.inner-header {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.top {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.product-card-price {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.navigation-link-search {
+  background-image: url("../images/search.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.navigation-link-heart {
+  background-image: url("../images/heart.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.button-more-detailed {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.button-to-favorites {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.field-from {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.field-before {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.advantages-white {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.advantages-values {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.button-newsletter {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+  background-position: center;
+}
+
+.select-control {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
