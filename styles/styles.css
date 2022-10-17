@@ -74,6 +74,7 @@ body {
 }
 
 .pagination {
+  list-style-type: none;
   width: 1186px;
   display: flex;
   align-items: center;
@@ -87,9 +88,11 @@ body {
 }
 
 .navigation-list {
+  display: flex;
   width: 634px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .navigation-user {
@@ -136,6 +139,7 @@ body {
 }
 
 .navigation-link {
+  display: block;
   font-family: "PT Sans", sans-serif;
   line-height: 24px;
   font-weight: 700;
@@ -208,6 +212,7 @@ body {
 }
 
 .footer-social-list {
+  list-style-type: none;
   display: flex;
 }
 
@@ -224,6 +229,7 @@ body {
 }
 
 .product-card {
+  list-style-type: none;
   width: 345px;
   padding: 20px;
   margin-right: 20px;
@@ -258,13 +264,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 96px 258px 104px;
-  gap: 10px;
-  width: 1200px;
-  height: 415px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
 }
 
 .subscribe-white {
