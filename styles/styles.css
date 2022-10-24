@@ -14,6 +14,24 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -28,6 +46,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -36,24 +58,158 @@ body {
   background-color: #F2F2F2;
 }
 
+.page-header-logo {
+  width: 140px;
+  margin-right: 28px;
+  margin-left: 70px;
+}
+
+.catalog-products {
+  display: flex;
+  align-items: flex-start;
+  background-image: url(../images/catalog-mountains.jpg);
+}
+
+.select-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list {
+  margin: 0 auto;
+  width: 1060px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  list-style-type: none;
+  width: 1060px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navigation-list {
+  display: flex;
+  width: 360px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-user {
+  max-width: 360px;
+  margin-left: 0;
+  padding: 0;
+}
+
+.logo-welcom {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  margin-top: 51px;
+}
+
+.hero-page {
+  width: 1200px;
+  height: 485px;
+  background-image: url(../images/index-background.jpg);
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.advantages-item {
+  width: 400px;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.real-town {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 384px;
+  margin: 0 auto;
+}
+
+
+.advantages-attributes {
+  display: flex;
+  width: 1200px;
+  height: 384px;
+  margin: 0 auto;
+}
+
+.advantages-places {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.devil-bridge {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 384px;
+  margin: 0 auto;
+}
+
+
+.items {
+  display: flex;
+  width: 1200px;
+  height: 384px;
+  margin: 0 auto;
+}
+
 .page-header {
+  display: flex;
+  justify-content: space-around;
   background: #FFFFFF;
   color: #000000;
 }
 
+.navigation-item {
+  display: block;
+  display: flex;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-item .navigation-user {
+  min-width: 16px;
+  min-height: 22px;
+
+}
+
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  padding: 20px 16px;
+  display: block;
+
   line-height: 24px;
   font-weight: 700;
   text-align: center;
   color: #000000;
   background: #FFFFFF;
   text-decoration: none;
-
 }
 
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -63,7 +219,7 @@ body {
 }
 
 .advantages-description-white {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -73,7 +229,7 @@ body {
 }
 
 .advantages-description {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -84,7 +240,7 @@ body {
 }
 
 .button-all {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -96,7 +252,7 @@ body {
 }
 
 .newsletter-button {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -104,16 +260,22 @@ body {
   color: #FFFFFF;
   background: #82B3D3;
   text-decoration: none;
-
   background-position: center;
 }
 
 .page-footer {
+  display: flex;
+  justify-content: space-between;
   background: #FFFFFF;
 }
 
+.footer-social-list {
+  list-style-type: none;
+  display: flex;
+}
+
 .footer-contacts-address-phone {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 40px;
   font-size: 40px;
@@ -122,11 +284,25 @@ body {
   color: #000000;
   background: #FFFFFF;
   text-decoration: none;
+}
 
+.product-list li:nth-child(3) {
+  margin-right: 0;
+}
+
+
+.product-card {
+  list-style-type: none;
+  width: 340px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
 }
 
 .product-card-title {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -137,7 +313,7 @@ body {
 }
 
 .subscribe {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -149,17 +325,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 96px 258px 104px;
-  gap: 10px;
-  width: 1200px;
-  height: 415px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
 }
 
 .subscribe-white {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -170,7 +339,7 @@ body {
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -178,7 +347,7 @@ body {
 }
 
 .control-input {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -186,7 +355,7 @@ body {
 }
 
 .pagination-link {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -197,7 +366,7 @@ body {
 }
 
 .button-want-here {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -209,8 +378,6 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  text-align: center;
-  text-transform: uppercase;
   padding: 8px 50px;
   gap: 10px;
   border-radius: 4px;
@@ -237,7 +404,7 @@ body {
 }
 
 .button-apply {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 20px;
   font-size: 16px;
@@ -249,7 +416,7 @@ body {
 }
 
 .button-reset {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 20px;
   font-size: 16px;
@@ -260,7 +427,7 @@ body {
 }
 
 .button-search-hotels-in-sedona {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -271,7 +438,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 8px 50px;
@@ -282,7 +448,7 @@ body {
 }
 
 .advantages-values-white {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -291,7 +457,7 @@ body {
 }
 
 .control {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -300,7 +466,7 @@ body {
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -309,16 +475,17 @@ body {
 }
 
 .catalog-products {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
+
 }
 
 .inner-header {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -328,7 +495,7 @@ body {
 }
 
 .top {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -337,7 +504,7 @@ body {
 }
 
 .product-card-price {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -358,7 +525,7 @@ body {
 }
 
 .button-more-detailed {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -369,7 +536,7 @@ body {
 }
 
 .button-to-favorites {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -380,7 +547,7 @@ body {
 }
 
 .field-from {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -389,7 +556,7 @@ body {
 }
 
 .field-before {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -398,7 +565,7 @@ body {
 }
 
 .advantages-white {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -408,7 +575,7 @@ body {
 }
 
 .advantages-values {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -417,7 +584,7 @@ body {
 }
 
 .button-newsletter {
-  font-family: "PT Sans", sans-serif;
+
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -429,10 +596,32 @@ body {
 }
 
 .select-control {
-  font-family: 'PT Sans';
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+}
+
+.subscribe-images {
+  background-image: url("../images/mauten-subskraibe.jpg");
+  background-size: 100%;
+  width: 1200px;
+  height: 415px;
+}
+
+.inner-header-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link-page {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
