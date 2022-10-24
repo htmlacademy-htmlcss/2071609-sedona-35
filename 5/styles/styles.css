@@ -15,8 +15,13 @@
 }
 
 html {
-  box-sizing: border-box;
   height: 100%;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .page-container {
@@ -137,9 +142,6 @@ body {
   margin: 0 auto;
 }
 
-.real-town-images {
-  display: flex;
-}
 
 .advantages-attributes {
   display: flex;
@@ -164,9 +166,6 @@ body {
   margin: 0 auto;
 }
 
-.devil-bridge-images {
-  display: flex;
-}
 
 .items {
   display: flex;
@@ -287,7 +286,12 @@ body {
   text-decoration: none;
 }
 
-.product-card :nth-child(3) {
+.product-list li:nth-child(3) {
+  margin-right: 0;
+}
+
+
+.product-card {
   list-style-type: none;
   width: 340px;
   padding: 20px;
@@ -477,6 +481,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
+
 }
 
 .inner-header {
@@ -601,6 +606,7 @@ body {
 
 .subscribe-images {
   background-image: url("../images/mauten-subskraibe.jpg");
+  background-size: 100%;
   width: 1200px;
   height: 415px;
 }
