@@ -120,21 +120,24 @@
           <section>
             <header class="inner-header">
               <div class="select-control">
-                <p>Найдено гостиниц: <span>38</span></p>
-                <select class="select-control" aria-label="Сортировка">
-                  <option value="popular">Сначала дешёвое</option>
-                  <option value="cheap">Сначала популярное</option>
-                  <option value="expensive">Сначала дорогое</option>
-                </select>
-                <a class="button-show-icons" href="#">
-                  <span class="visually-hidden">Показать значками</span>
-                </a>
-                <a class="button-show-slides" href="#">
-                  <span class="visually-hidden">Показать слайдами</span>
-                </a>
-                <a class="button-show-list" href="#">
-                  <span class="visually-hidden">Показать списком</span>
-                </a>
+                <p class="hotels-found">Найдено гостиниц: <span>38</span></p>
+                <div class="buttons-to-choose-from">
+                  <select class="select-control" aria-label="Сортировка">
+                    <option value="popular">Сначала дешёвое</option>
+                    <option value="cheap">Сначала популярное</option>
+                    <option value="expensive">Сначала дорогое</option>
+                  </select>
+
+                  <a class="button-show-icons" href="#">
+                    <span class="visually-hidden">Показать значками</span>
+                  </a>
+                  <a class="button-show-slides" href="#">
+                    <span class="visually-hidden">Показать слайдами</span>
+                  </a>
+                  <a class="button-show-list" href="#">
+                    <span class="visually-hidden">Показать списком</span>
+                  </a>
+                </div>
               </div>
             </header>
             <ul class="product-list">
@@ -189,12 +192,12 @@
                 <span class="top">РЕЙТИНГ:5,0</span>
               </li>
             </ul>
-            <div class="pagination">
+            <div class="pagination-container">
               <ul class="pagination">
                 <li class="pagination-item">
                 </li>
                 <li class="pagination-item">
-                  <a class="pagination-link pagination-current">1</a>
+                  <a class="pagination-link-pagination-current">1</a>
                 </li>
                 <li class="pagination-item">
                   <a class="pagination-link" href="#">2</a>
@@ -227,29 +230,31 @@
         </div>
       </main>
       <footer class="page-footer">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <img class="logo" src="images/icon-VK.svg" alt="ВКонтакте">
-            <a class="button" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <img class="logo" src="images/icon-telegram.svg" alt="Телеграм">
-            <a class="button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <img class="logo" src="images/icon-youtube.svg" alt="Ютьюб">
-            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютьюб</span>
-            </a>
-          </li>
-        </ul>
-        <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="page-footer-logo"
-            alt="логотип html academy" src="images/logo-HTMLAcademy.svg"></a>
+        <div class="page-footer-address">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <img class="logo" src="images/icon-VK.svg" alt="ВКонтакте">
+              <a class="button" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">ВКонтакте</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <img class="logo" src="images/icon-telegram.svg" alt="Телеграм">
+              <a class="button" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Телеграм</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <img class="logo" src="images/icon-youtube.svg" alt="Ютьюб">
+              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Ютьюб</span>
+              </a>
+            </li>
+          </ul>
+          <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="page-footer-logo"
+              alt="логотип html academy" src="images/logo-HTMLAcademy.svg"></a>
+        </div>
       </footer>
     </div>
   </body>
