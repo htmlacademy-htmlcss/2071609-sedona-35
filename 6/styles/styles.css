@@ -65,12 +65,21 @@ body {
 }
 
 .catalog-products {
+
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  background-image: url(../images/catalog-mountains.jpg);
+  align-items: center;
   background-color: transparent;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.catalog-products-images {
+  background-image: url(../images/catalog-mountains.jpg);
+  background-size: 100%;
 }
 
 .breadcrumbs {
@@ -115,6 +124,7 @@ body {
 }
 
 .pagination-container {
+  margin-left: 55px;
   display: flex;
   padding: 8px;
   background-color: #ffffff;
@@ -193,13 +203,6 @@ body {
   flex-direction: column;
 }
 
-.real-town {
-  width: 400px;
-  height: 384px;
-  margin: 0 auto;
-  background: #82B3D3
-}
-
 .advantages-white-images {
   width: 230px;
   height: 181px;
@@ -209,6 +212,7 @@ body {
   padding-bottom: 111px;
   text-align: center;
   justify-content: center;
+  background: #82B3D3
 }
 
 .advantages-devil-bridge {
@@ -296,11 +300,6 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.navigation-item {
-  min-width: 16px;
-  min-height: 22px;
 }
 
 .navigation-link {
