@@ -73,6 +73,16 @@ body {
   background-color: transparent;
 }
 
+.catalog-products-cost {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-products-button {
+  display: flex;
+  flex-direction: column;
+}
+
 .catalog-filter {
   display: flex;
 }
@@ -94,7 +104,6 @@ body {
 .select-control {
   display: flex;
   justify-content: space-between;
-
 }
 
 .button-show-icons {
@@ -123,6 +132,15 @@ body {
   padding: 0;
 }
 
+.product-card-functional {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 21px 36px 37px;
+  align-items: center;
+  gap: 16px;
+}
+
+
 .pagination-container {
   margin-left: 55px;
   display: flex;
@@ -131,6 +149,7 @@ body {
 }
 
 .pagination-link-pagination-current {
+  padding: 10px;
   text-align: center;
   display: block;
   box-sizing: border-box;
@@ -523,6 +542,7 @@ body {
 }
 
 .pagination-link {
+  padding: 10px;
   text-align: center;
   display: block;
   box-sizing: border-box;
@@ -669,7 +689,7 @@ body {
 }
 
 .top {
-
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -678,7 +698,8 @@ body {
 }
 
 .product-card-price {
-
+  text-align: right;
+  padding-right: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -699,25 +720,35 @@ body {
 }
 
 .button-more-detailed {
-
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
+  background: #756157;
   text-decoration: none;
 
 }
 
 .button-to-favorites {
-
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
+  background: #82B3D3;
   text-decoration: none;
 
+}
+
+.button-to-favorites-green {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background: #7DB54F;
+  text-decoration: none;
 }
 
 .field-from {
@@ -917,8 +948,8 @@ body {
   background-position: center;
 }
 
-.select-control {
-
+.select-Control {
+  margin-right: 70px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
