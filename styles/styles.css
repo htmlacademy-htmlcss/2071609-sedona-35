@@ -88,13 +88,17 @@ body {
 }
 
 .catalog-products-images {
+  display: block;
   background-image: url(../images/catalog-mountains.jpg);
   background-size: 100%;
+  width: 1200px;
+  height: 412px;
+  object-fit: contain;
 }
 
 .breadcrumbs {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 8px;
   margin-left: 70px;
   margin-top: 8px;
   display: flex;
@@ -685,7 +689,16 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
-  text-transform: uppercase;
+
+}
+
+.inner-header-page {
+  width: 1060px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+
 }
 
 .top {
@@ -720,17 +733,25 @@ body {
 }
 
 .button-more-detailed {
+  width: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   background: #756157;
+  border-radius: 4px;
   text-decoration: none;
-
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .button-to-favorites {
+  width: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -738,10 +759,15 @@ body {
   line-height: 20px;
   background: #82B3D3;
   text-decoration: none;
-
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .button-to-favorites-green {
+  width: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -749,6 +775,9 @@ body {
   line-height: 20px;
   background: #7DB54F;
   text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .field-from {
@@ -964,8 +993,6 @@ body {
   height: 415px;
 }
 
-.-address {}
-
 .advantages-subscribe {
   padding-top: 96px;
   padding-bottom: 104px;
@@ -975,8 +1002,7 @@ body {
 }
 
 .inner-header-title {
-  margin-top: 35px;
-  margin-left: 70px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
