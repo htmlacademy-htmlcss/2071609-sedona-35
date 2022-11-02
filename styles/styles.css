@@ -64,18 +64,43 @@ body {
   margin-left: 70px;
 }
 
-.catalog-products {
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+}
 
+.catalog-filter-group {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.catalog-products {
+  padding-left: 70px;
+  padding-right: 70px;
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
 }
 
 .catalog-products-cost {
   display: flex;
   flex-direction: column;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.catalog-filds-cost {
+  display: flex;
 }
 
 .catalog-products-button {
@@ -85,24 +110,23 @@ body {
 
 .catalog-filter {
   display: flex;
+
 }
 
 .catalog-products-images {
   display: block;
   background-image: url(../images/catalog-mountains.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 1200px;
   height: 412px;
-  object-fit: contain;
+
 }
 
 .breadcrumbs {
-  margin: 0 auto;
+  margin: 0;
   padding: 8px;
-  margin-left: 70px;
-  margin-top: 8px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .select-control {
@@ -138,10 +162,10 @@ body {
 
 .product-card-functional {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 140px 140px;
   grid-template-rows: 21px 36px 37px;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
 }
 
 
@@ -530,7 +554,12 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-filter-item {
+  padding-bottom: 16px;
+}
+
 .control-input {
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -665,21 +694,13 @@ body {
 }
 
 .catalog-filter-title {
+  padding-right: 70px;
+  padding-bottom: 32px;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-}
-
-.catalog-products {
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FFFFFF;
-
 }
 
 .inner-header {
@@ -819,7 +840,7 @@ body {
   justify-content: center;
   width: 400px;
   height: 384px;
-  margin: 0 auto;
+
   background: rgba(131, 179, 211, 0.12);
 
 }
@@ -1002,11 +1023,12 @@ body {
 }
 
 .inner-header-title {
-
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   color: #FFFFFF;
+  line-height: 78px;
 }
 
 .breadcrumbs-link-page {
