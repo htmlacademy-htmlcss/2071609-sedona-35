@@ -75,6 +75,42 @@ body {
   border: none;
 }
 
+.catalog-products-price {
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.field-from {
+  width: 143px;
+  height: 48px;
+  font-family: "PT Sans", sans-serif;
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.field-before {
+  width: 143px;
+  height: 48px;
+  font-family: "PT Sans", sans-serif;
+  background: #F2F2F2;
+  border-radius: 0px 4px 4px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.field-price {
+
+  padding-bottom: 48px;
+}
+
 .catalog-products {
   padding-left: 70px;
   padding-right: 70px;
@@ -104,13 +140,15 @@ body {
 }
 
 .catalog-products-button {
+  width: 191px;
   display: flex;
   flex-direction: column;
 }
 
+
+
 .catalog-filter {
   display: flex;
-
 }
 
 .catalog-products-images {
@@ -629,27 +667,37 @@ body {
 }
 
 .button-apply {
-
+  width: 191px;
+  height: 36px;
+  border-radius: 4px;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   line-height: 20px;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
   background: #82B3D3;
+  text-transform: uppercase;
   text-decoration: none;
   background-position: center;
+  border: none;
 }
 
 .button-reset {
-
+  width: 191px;
+  height: 36px;
+  border-radius: 4px;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   line-height: 20px;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
   text-decoration: none;
+  text-transform: uppercase;
   background-position: center;
   background-color: transparent;
+  border: none;
 }
 
 .button-search-hotels-in-sedona {
@@ -799,24 +847,6 @@ body {
   border-radius: 4px;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.field-from {
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-}
-
-.field-before {
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
 }
 
 .advantages-white {
