@@ -46,18 +46,20 @@
         <div class="page-container">
           <div class="catalog-products-images">
             <header class="inner-header">
-              <h1 class="inner-header-title">Гостиницы Седоны</h1>
-              <ul class="breadcrumbs">
-                <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link" href="index.html">Главная</a>
-                </li>
-                <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link-page">Гостиницы</a>
-                </li>
-              </ul>
+              <div class="inner-header-page">
+                <h1 class="inner-header-title">Гостиницы Седоны</h1>
+                <ul class="breadcrumbs">
+                  <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html">Главная</a>
+                  </li>
+                  <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link-page">Гостиницы</a>
+                  </li>
+                </ul>
+              </div>
             </header>
             <div class="catalog-products">
-              <section class="catalog-products">
+              <section class="catalog-products-options">
                 <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
                 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
                   <fieldset class="catalog-filter-group">
@@ -108,29 +110,34 @@
                   </fieldset>
                 </form>
               </section>
-              <p class="catalog-products">Стоимость,₽:</p>
-              <input type="range" min="0" max="9000">
-              <input class="field-from" placeholder="От" required>
-              <input class="field-before" placeholder="До" required>
-              <button class="button-apply" type="submit">
-                Применить
-              </button>
-              <button class="button-reset" type="reset">
-                Сбросить
-              </button>
+              <div class="catalog-products-cost">
+                <p class="catalog-products-price">Стоимость,₽:</p>
+                <div class="catalog-filds-cost">
+                  <input class="field-from" placeholder="от" required>
+                  <input class="field-before" placeholder="до" required>
+                </div>
+                <input class="field-price" type="range" min="0" max="9000">
+              </div>
+              <div class="catalog-products-button">
+                <button class="button-apply" type="submit">
+                  Применить
+                </button>
+                <button class="button-reset" type="reset">
+                  Сбросить
+                </button>
+              </div>
             </div>
           </div>
           <section>
             <header class="inner-header">
               <div class="select-control">
-                <p class="hotels-found">Найдено гостиниц: <span>38</span></p>
+                <p class="hotels-found">НАЙДЕНО ГОСТИНИЦ: <span>38</span></p>
                 <div class="buttons-to-choose-from">
-                  <select class="select-control" aria-label="Сортировка">
+                  <select class="select-Control" aria-label="Сортировка">
                     <option value="popular">Сначала дешёвые</option>
                     <option value="cheap">Сначала популярные</option>
                     <option value="expensive">Сначала дорогие</option>
                   </select>
-
                   <a class="button-show-icons" href="#">
                     <span class="visually-hidden">Показать значками</span>
                   </a>
@@ -150,12 +157,14 @@
                     alt="Каньёны звезное небо">
                   <h3 class="product-card-title">Amara Resort & Spa</h3>
                 </a>
-                <p>Гостиница</p>
-                <b class="product-card-price">От 4000 ₽</b>
-                <a class="button-more-detailed" href="#">Подробнее</a>
-                <a class="button-to-favorites" href="#">Избранное</a>
-                <span class="star">★ ★ ★ ★</span>
-                <span class="top">РЕЙТИНГ:8,5</span>
+                <div class="product-card-functional">
+                  <p>Гостиница</p>
+                  <b class="product-card-price">От 4000 ₽</b>
+                  <a class="button-more-detailed" href="#">Подробнее</a>
+                  <a class="button-to-favorites" href="#">Избранное</a>
+                  <span class="star">★ ★ ★ ★</span>
+                  <span class="top">РЕЙТИНГ:8,5</span>
+                </div>
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
@@ -163,36 +172,42 @@
                     alt="Горы ночное небо и радуга">
                   <h3 class="product-card-title">Villas at Poco Diablo</h3>
                 </a>
-                <p>Гостиница</p>
-                <b class="product-card-price">От 5000 ₽</b>
-                <a class="button-more-detailed" href="#">Подробнее</a>
-                <a class="button-to-favorites" href="#">Избранное</a>
-                <span class="star">★ ★ ★ ★</span>
-                <span class="top">РЕЙТИНГ:9,2</span>
+                <div class="product-card-functional">
+                  <p>Гостиница</p>
+                  <b class="product-card-price">От 5000 ₽</b>
+                  <a class="button-more-detailed" href="#">Подробнее</a>
+                  <a class="button-to-favorites-green" href="#">Избранное</a>
+                  <span class="star">★ ★ ★ ★</span>
+                  <span class="top">РЕЙТИНГ:9,2</span>
+                </div>
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
                   <img class="product-card-image" src="images/Hotel/hotel-Desert-Quail-Inn.jpg" alt="Горы и рассвет">
                   <h3 class="product-card-title">Desert Quail Inn</h3>
                 </a>
-                <p>Гостиница</p>
-                <b class="product-card-price">От 2500 ₽</b>
-                <a class="button-more-detailed" href="#">Подробнее</a>
-                <a class="button-to-favorites" href="#">Избранное</a>
-                <span class="star">★ ★ ★</span>
-                <span class="top">РЕЙТИНГ:6,9</span>
+                <div class="product-card-functional">
+                  <p>Гостиница</p>
+                  <b class="product-card-price">От 2500 ₽</b>
+                  <a class="button-more-detailed" href="#">Подробнее</a>
+                  <a class="button-to-favorites" href="#">Избранное</a>
+                  <span class="star">★ ★ ★</span>
+                  <span class="top">РЕЙТИНГ:6,9</span>
+                </div>
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
                   <img class="product-card-image" src="images/Hotel/hotel-Green-Tree-Inn.jpg" alt="Горы и ночное небо">
                   <h3 class="product-card-title">Green Tree Inn</h3>
                 </a>
-                <p>Гостиница</p>
-                <b class="product-card-price">От 1500 ₽</b>
-                <a class="button-more-detailed" href="#">Подробнее</a>
-                <a class="button-to-favorites" href="#">Избранное</a>
-                <span class="star">★ ★</span>
-                <span class="top">РЕЙТИНГ:5,0</span>
+                <div class="product-card-functional">
+                  <p>Гостиница</p>
+                  <b class="product-card-price">От 1500 ₽</b>
+                  <a class="button-more-detailed" href="#">Подробнее</a>
+                  <a class="button-to-favorites" href="#">Избранное</a>
+                  <span class="star">★ ★</span>
+                  <span class="top">РЕЙТИНГ:5,0</span>
+                </div>
               </li>
             </ul>
             <div class="pagination-container">
