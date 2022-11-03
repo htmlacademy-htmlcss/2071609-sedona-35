@@ -140,7 +140,7 @@ body {
 }
 
 .catalog-products-button {
-  width: 191px;
+
   display: flex;
   flex-direction: column;
 }
@@ -686,6 +686,7 @@ body {
 .button-reset {
   width: 191px;
   height: 36px;
+  padding-top: 32px;
   border-radius: 4px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
