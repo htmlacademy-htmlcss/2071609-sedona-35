@@ -215,10 +215,27 @@ body {
   background: #F2F2F2;
 }
 
+.pagination-link-hidden-pages {
+  padding: 10px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+  background: #FFFFFF
+}
+
 .pagination {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 60px;
   list-style-type: none;
 }
 
@@ -457,10 +474,7 @@ body {
   text-align: center;
 }
 
-.advantages-description {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 90px;
+.advantages-description-main {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -468,7 +482,34 @@ body {
   color: #333333;
   text-align: center;
   flex-wrap: wrap;
+}
 
+.advantages-description {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 90px;
+  padding-left: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+
+}
+
+.advantages-description-catalog {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 90px;
+  padding-left: 363px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 475px;
 }
 
 .interested {
@@ -487,7 +528,6 @@ body {
   color: #FFFFFF;
   background: #756157;
   text-decoration: none;
-
 }
 
 .newsletter-button {
@@ -507,7 +547,14 @@ body {
   display: flex;
   justify-content: space-between;
   background: #FFFFFF;
+}
 
+.page-footer-address-catalog {
+  padding-top: 79px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
 }
 
 .footer-social-list {
@@ -668,6 +715,7 @@ body {
 }
 
 .subscribe {
+  padding-top: 96px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -708,6 +756,7 @@ body {
 }
 
 .newsletter-form {
+  display: flex;
   align-self: center;
 }
 
@@ -722,7 +771,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
   background-color: #82B3D3;
 }
@@ -804,12 +853,6 @@ body {
   border: none;
 }
 
-.button-newsletter {
-  border: none;
-  border-radius: 0px 4px 4px 0px;
-  text-transform: uppercase;
-}
-
 .button-search-hotels-in-sedona {
   font-style: normal;
   font-weight: 700;
@@ -882,7 +925,24 @@ body {
 
 }
 
+.star {
+  color: #83B3D3;
+}
+
+.field {
+  width: 452px;
+  height: 46px;
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+}
+
 .top {
+  width: 131px;
+  height: 24px;
+  padding: 5px;
+  margin: auto;
+  background: #F2F2F2;
+  border-radius: 4px;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -1117,7 +1177,9 @@ body {
 }
 
 .button-newsletter {
-
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  text-transform: uppercase;
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -1126,6 +1188,7 @@ body {
   background: #82B3D3;
   text-decoration: none;
   background-position: center;
+  height: 52px;
 }
 
 .select-Control {
