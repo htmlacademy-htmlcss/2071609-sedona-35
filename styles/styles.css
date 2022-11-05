@@ -256,7 +256,6 @@ body {
 }
 
 .navigation-user {
-  max-width: 360px;
   margin-left: 0;
   padding: 0;
 }
@@ -381,13 +380,34 @@ body {
   align-items: center;
   display: block;
   display: flex;
-  width: 350px;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
+.navigation-item-want-here {
+  margin-right: 70px;
+  margin-left: 20px;
+}
+
+
+.favorites-counter {
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  border-radius: 10px;
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  padding: 3px 5px;
+  letter-spacing: -0.1em;
+  margin-top: -8px;
+}
+
 .navigation-link {
+  min-height: 22px;
+  min-width: 16px;
+  position: relative;
   padding: 20px 16px;
   display: block;
   line-height: 24px;
@@ -440,6 +460,7 @@ body {
   color: #000000;
   display: flex;
   flex-wrap: wrap;
+  text-transform: uppercase;
 }
 
 .advantages-description-white {
@@ -497,6 +518,7 @@ body {
 }
 
 .page-footer-address {
+  position: relative;
   display: flex;
   justify-content: space-between;
   background: #FFFFFF;
@@ -504,25 +526,16 @@ body {
 }
 
 .footer-social-list {
-  padding-left: 70px;
-  padding-top: 45px;
-  padding-bottom: 35px;
-  list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  padding: 0;
 }
 
 .footer-social-item {
-  padding-left: 13px;
-  padding-right: 13px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.htmlacademy-link {
-  padding-top: 49px;
-  padding-right: 70px;
+  padding: 13px;
+  align-items: center;
 }
 
 .footer-contacts-address-phone {
@@ -538,14 +551,47 @@ body {
   text-decoration: none;
 }
 
-.product-list li:nth-child(3) {
-  margin-right: 0;
+.navigation-icon:hover,
+.navigation-icon:focus,
+.navigation-icon:active {
+  fill: #756157;
+  stroke: #000000;
 }
 
-.-logo {
-  padding-top: 49px;
-  padding-bottom: 39px;
-  padding-right: 70px;
+.footer-social-vk:hover { background: #68A2CA;}
+.footer-social-vk:focus { background: #68A2CA;}
+.footer-social-vk:active { background: rgba(104, 162, 202, 0.3);}
+
+.footer-contacts-address-phone:hover { color: #756157;}
+.footer-contacts-address-phone:focus { color: #756157;}
+.footer-contacts-address-phone:active { color: rgba(117, 97, 87, 0.3);}
+
+.htmlacademy-link:hover {color: #756157;}
+.htmlacademy-link:focus {color: #756157;}
+.htmlacademy-link:active {color: rgba(117, 97, 87, 0.3)}
+
+.button-want-here:hover {background: #615048;}
+.button-want-here:focus {background: #615048;}
+.button-want-here:active {background: #756157;}
+.button-want-here:disabled {background: #E5E5E5;}
+
+.button-more-detailed:hover {background: #615048;}
+.button-more-detailed:focus {background: #615048;}
+.button-more-detailed:active {background: #756157;}
+.button-more-detailed:disabled {background: #E5E5E5;}
+
+.button-to-favorites:hover {background: #68A2CA;}
+.button-to-favorites:focus {background: #68A2CA;}
+.button-to-favorites:active {background: #82B3D3;}
+.button-to-favorites:disabled {background: #E5E5E5;}
+
+.button-to-favorites-green:hover {background: #6C9E42;}
+.button-to-favorites-green:focus {background: #6C9E42;}
+.button-to-favorites-green:active {background: #7DB54F;}
+.button-to-favorites-green:disabled {background: #E5E5E5;}
+
+.product-list li:nth-child(3) {
+  margin-right: 0;
 }
 
 .product-card {
@@ -628,6 +674,16 @@ body {
   background-color: #82B3D3;
 }
 
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #dbdbdb;
+}
+
 .button-want-here {
 
   font-style: normal;
@@ -642,9 +698,7 @@ body {
   display: flex;
   align-items: center;
   padding: 8px 50px;
-  gap: 10px;
   border-radius: 4px;
-  width: 160px;
   height: 36px;
 }
 
@@ -701,6 +755,12 @@ body {
   border: none;
 }
 
+.button-newsletter {
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  text-transform: uppercase;
+}
+
 .button-search-hotels-in-sedona {
   font-style: normal;
   font-weight: 700;
@@ -714,11 +774,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 376px;
   height: 52px;
   border-radius: 4px;
-  padding-left: 108px;
-
 }
 
 .advantages-values-white {
@@ -788,18 +845,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-}
-
-.navigation-link-search {
-  background-image: url("../images/search.svg");
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
-.navigation-link-heart {
-  background-image: url("../images/heart.svg");
-  background-position: left;
-  background-repeat: no-repeat;
 }
 
 .button-more-detailed {
