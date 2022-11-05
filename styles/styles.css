@@ -162,6 +162,7 @@ body {
 }
 
 .breadcrumbs {
+  position: relative;
   margin: 0;
   padding: 8px;
   display: flex;
@@ -172,23 +173,7 @@ body {
   justify-content: space-between;
 }
 
-.button-show-icons {
-  width: 48px;
-  height: 48px;
-  background-image: url(../images/button-show-icons.svg);
-}
 
-.button-show-slides {
-  width: 48px;
-  height: 48px;
-  background-image: url(../images/button-show-slides.svg);
-}
-
-.button-show-list {
-  width: 48px;
-  height: 48px;
-  background-image: url(../images/button-show-list.svg);
-}
 
 .product-list {
   margin: 0 auto;
@@ -558,37 +543,105 @@ body {
   stroke: #000000;
 }
 
-.footer-social-vk:hover { background: #68A2CA;}
-.footer-social-vk:focus { background: #68A2CA;}
-.footer-social-vk:active { background: rgba(104, 162, 202, 0.3);}
+.footer-social-vk:hover {
+  color: #68A2CA;
+}
 
-.footer-contacts-address-phone:hover { color: #756157;}
-.footer-contacts-address-phone:focus { color: #756157;}
-.footer-contacts-address-phone:active { color: rgba(117, 97, 87, 0.3);}
+.footer-social-vk:focus {
+  color: #68A2CA;
+}
 
-.htmlacademy-link:hover {color: #756157;}
-.htmlacademy-link:focus {color: #756157;}
-.htmlacademy-link:active {color: rgba(117, 97, 87, 0.3)}
+.footer-social-vk:active {
+  color: rgba(104, 162, 202, 0.3);
+}
 
-.button-want-here:hover {background: #615048;}
-.button-want-here:focus {background: #615048;}
-.button-want-here:active {background: #756157;}
-.button-want-here:disabled {background: #E5E5E5;}
+.footer-contacts-address-phone:hover {
+  color: #756157;
+}
 
-.button-more-detailed:hover {background: #615048;}
-.button-more-detailed:focus {background: #615048;}
-.button-more-detailed:active {background: #756157;}
-.button-more-detailed:disabled {background: #E5E5E5;}
+.footer-contacts-address-phone:focus {
+  color: #756157;
+}
 
-.button-to-favorites:hover {background: #68A2CA;}
-.button-to-favorites:focus {background: #68A2CA;}
-.button-to-favorites:active {background: #82B3D3;}
-.button-to-favorites:disabled {background: #E5E5E5;}
+.footer-contacts-address-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
 
-.button-to-favorites-green:hover {background: #6C9E42;}
-.button-to-favorites-green:focus {background: #6C9E42;}
-.button-to-favorites-green:active {background: #7DB54F;}
-.button-to-favorites-green:disabled {background: #E5E5E5;}
+.htmlacademy-link:hover {
+  color: #756157;
+}
+
+.htmlacademy-link:focus {
+  color: #756157;
+}
+
+.htmlacademy-link:active {
+  color: rgba(117, 97, 87, 0.3)
+}
+
+.button-want-here:hover {
+  background: #615048;
+}
+
+.button-want-here:focus {
+  background: #615048;
+}
+
+.button-want-here:active {
+  background: #756157;
+}
+
+.button-want-here:disabled {
+  background: #E5E5E5;
+}
+
+.button-more-detailed:hover {
+  background: #615048;
+}
+
+.button-more-detailed:focus {
+  background: #615048;
+}
+
+.button-more-detailed:active {
+  background: #756157;
+}
+
+.button-more-detailed:disabled {
+  background: #E5E5E5;
+}
+
+.button-to-favorites:hover {
+  background: #68A2CA;
+}
+
+.button-to-favorites:focus {
+  background: #68A2CA;
+}
+
+.button-to-favorites:active {
+  background: #82B3D3;
+}
+
+.button-to-favorites:disabled {
+  background: #E5E5E5;
+}
+
+.button-to-favorites-green:hover {
+  background: #6C9E42;
+}
+
+.button-to-favorites-green:focus {
+  background: #6C9E42;
+}
+
+.button-to-favorites-green:active {
+  background: #7DB54F;
+}
+
+.button-to-favorites-green:disabled {
+  background: #E5E5E5;
+}
 
 .product-list li:nth-child(3) {
   margin-right: 0;
@@ -702,22 +755,18 @@ body {
   height: 36px;
 }
 
-.button-show-icons {
-  background-image: url("../images/button-show-icons.svg");
-  background-position: right;
-  background-repeat: no-repeat;
-}
-
+.button-show-icons,
 .button-show-slides {
-  background-image: url("../images/button-show-slides.svg");
-  background-position: right;
-  background-repeat: no-repeat;
+  padding-right: 8px;
 }
 
-.button-show-list {
-  background-image: url("../images/button-show-list.svg");
-  background-position: right;
-  background-repeat: no-repeat;
+.breadcrumbs-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .button-apply {
@@ -788,6 +837,11 @@ body {
   color: #FFFFFF;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.htmlacademy-link {
+  padding-top: 40px;
+  padding-right: 70px;
 }
 
 .control {
@@ -1108,10 +1162,20 @@ body {
 }
 
 .breadcrumbs-link-page {
+  padding-left: 10px;
   margin-left: 28px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+}
+
+.go-to-the-main-page {
+  margin-bottom: 12px;
+}
+
+.arrow {
+  padding-left: 2px;
+  margin: 6px;
 }
