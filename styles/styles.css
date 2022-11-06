@@ -251,17 +251,17 @@ body {
 }
 
 .navigation-list {
-  orphans: 2;
   display: flex;
   width: 360px;
   margin: 0;
-  padding: 0;
+  padding-left: 85px;
   list-style-type: none;
 }
 
 .navigation-logo {
-  position: absolute;
-  order: 1;
+  position: relative;
+  z-index: 777;
+  right: -70px;
 
 }
 
@@ -273,6 +273,9 @@ body {
 .logo-welcom {
   display: block;
   margin: 0 auto;
+  position: relative;
+  z-index: 777;
+  bottom: -51px;
 }
 
 .advantages-list {
@@ -380,6 +383,7 @@ body {
 }
 
 .page-header {
+  height: 64px;
   display: flex;
   justify-content: space-around;
   background: #FFFFFF;
@@ -388,7 +392,6 @@ body {
 
 .navigation-item {
   align-items: center;
-  display: block;
   display: flex;
   margin: 0;
   padding: 0;
@@ -590,6 +593,30 @@ body {
   text-decoration: none;
 }
 
+.footer-social-vk:hover,
+.footer-social-vk:focus {
+  fill: #68A2CA;
+}
+.footer-social-vk:active {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.footer-social-tg:hover,
+.footer-social-tg:focus {
+  fill: #68A2CA;
+}
+.footer-social-tg:active {
+  fill: rgba(104, 162, 202, 0.3);
+}
+.footer-social-yt:hover,
+.footer-social-yt:focus {
+  fill: #68A2CA;
+}
+.footer-social-yt:active {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+
 .navigation-icon:hover,
 .navigation-icon:focus,
 .navigation-icon:active {
@@ -597,114 +624,71 @@ body {
   stroke: #000000;
 }
 
-.footer-social-vk {
-color: #83B3D3;
-}
-
-.footer-social-vk:hover {
-  color: #68A2CA;
-}
-
-.footer-social-vk:focus {
-  color: #68A2CA;
-}
-
-.footer-social-vk:active {
-  color: rgba(104, 162, 202, 0.3);
-}
-
 .footer-contacts-address-phone:hover {
   color: #756157;
 }
-
 .footer-contacts-address-phone:focus {
   color: #756157;
 }
-
 .footer-contacts-address-phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
-
-.htmlacademy-link:hover {
-  color: #756157;
-}
-
+.htmlacademy-link:hover,
 .htmlacademy-link:focus {
-  color: #756157;
+  fill: #756157;
 }
-
 .htmlacademy-link:active {
-  color: rgba(117, 97, 87, 0.3)
+  fill: rgba(117, 97, 87, 0.3)
 }
+.button-want-here:hover {background: #615048;}
+.button-want-here:focus {background: #615048;}
+.button-want-here:active {color: rgba(255, 255, 255, 0.3); background: #756157;}
+.button-want-here:disabled {background: #E5E5E5;}
 
-.button-want-here:hover {
-  background: #615048;
-}
 
-.button-want-here:focus {
-  background: #615048;
-}
-
-.button-want-here:active {
-  background: #756157;
-}
-
-.button-want-here:disabled {
-  background: #E5E5E5;
-}
 
 .button-more-detailed:hover {
   background: #615048;
 }
-
 .button-more-detailed:focus {
   background: #615048;
 }
-
 .button-more-detailed:active {
   background: #756157;
+  color: rgba(255, 255, 255, 0.3);;
 }
-
 .button-more-detailed:disabled {
   background: #E5E5E5;
 }
-
 .button-to-favorites:hover {
   background: #68A2CA;
 }
-
 .button-to-favorites:focus {
   background: #68A2CA;
 }
-
 .button-to-favorites:active {
   background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);;
 }
-
 .button-to-favorites:disabled {
   background: #E5E5E5;
 }
-
 .button-to-favorites-green:hover {
   background: #6C9E42;
 }
-
 .button-to-favorites-green:focus {
   background: #6C9E42;
 }
-
 .button-to-favorites-green:active {
   background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);;
 }
-
 .button-to-favorites-green:disabled {
   background: #E5E5E5;
 }
-
 .product-list li:nth-child(3) {
   margin-right: 0;
 }
-
 .product-card {
   list-style-type: none;
   width: 340px;
@@ -880,6 +864,8 @@ color: #83B3D3;
   height: 52px;
   border-radius: 4px;
 }
+
+.button-search-hotels-in-sedona:hover {background: #615048;} .button-search-hotels-in-sedona:focus {background: #615048;} .button-search-hotels-in-sedona:active {color: rgba(255, 255, 255, 0.3); background: #756157;} .button-search-hotels-in-sedona:disabled {background: #E5E5E5;}
 
 .advantages-values-white {
   width: 230px;
