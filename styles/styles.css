@@ -25,6 +25,7 @@ li {
 }
 
 .page-container {
+
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -250,11 +251,18 @@ body {
 }
 
 .navigation-list {
+  orphans: 2;
   display: flex;
   width: 360px;
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.navigation-logo {
+  position: absolute;
+  order: 1;
+
 }
 
 .navigation-user {
@@ -520,7 +528,6 @@ body {
 }
 
 .button-all {
-
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -588,6 +595,10 @@ body {
 .navigation-icon:active {
   fill: #756157;
   stroke: #000000;
+}
+
+.footer-social-vk {
+color: #83B3D3;
 }
 
 .footer-social-vk:hover {
