@@ -25,7 +25,7 @@ li {
 }
 
 .page-container {
-
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -236,6 +236,7 @@ body {
   display: flex;
   margin: 0;
   padding-top: 40px;
+  padding-left: 0;
   padding-bottom: 60px;
   list-style-type: none;
 }
@@ -880,7 +881,7 @@ body {
 }
 
 .htmlacademy-link {
-  padding-top: 40px;
+  padding-top: 23px;
   padding-right: 70px;
 }
 
