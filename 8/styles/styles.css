@@ -25,7 +25,15 @@ li {
 }
 
 .page-container {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.page-container-bodi {
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -86,7 +94,7 @@ body {
   height: 48px;
   font-family: "PT Sans", sans-serif;
   background: #F2F2F2;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -99,7 +107,7 @@ body {
   height: 48px;
   font-family: "PT Sans", sans-serif;
   background: #F2F2F2;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -356,16 +364,16 @@ body {
 
 .advantages-small-area-text::after {
   content: "";
-    position: absolute;
-    left: 33%;
-    bottom: -4px;
-    width: 60px;
-    height: 0px;
-    transform: skew(0deg) translateX(22%);
-    border: 1px solid #756257;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 9999;
+  position: absolute;
+  left: -14%;
+  bottom: -4px;
+  width: 60px;
+  height: 2px;
+  transform: skew(0deg) translateX(189%);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
+
 .advantages-attributes {
   display: flex;
   width: 1200px;
@@ -413,9 +421,9 @@ body {
   content: "";
   position: absolute;
   left: -1%;
-  bottom: 0px;
+  bottom: 0;
   width: 64px;
-  height: 0px;
+  height: 0;
   transform: skew(0deg) translateX(22%);
   border: 1px solid #756257;
   color: #756257;
@@ -426,9 +434,9 @@ body {
   content: "";
   position: absolute;
   left: -11%;
-  bottom: 0px;
+  bottom: 0;
   width: 93px;
-  height: 0px;
+  height: 0;
   transform: skew(0deg) translateX(22%);
   border: 1px solid #756257;
   color: #756257;
@@ -642,6 +650,7 @@ body {
 .footer-social-vk:focus {
   fill: #68A2CA;
 }
+
 .footer-social-vk:active {
   fill: rgba(104, 162, 202, 0.3);
 }
@@ -650,13 +659,16 @@ body {
 .footer-social-tg:focus {
   fill: #68A2CA;
 }
+
 .footer-social-tg:active {
   fill: rgba(104, 162, 202, 0.3);
 }
+
 .footer-social-yt:hover,
 .footer-social-yt:focus {
   fill: #68A2CA;
 }
+
 .footer-social-yt:active {
   fill: rgba(104, 162, 202, 0.3);
 }
@@ -672,68 +684,101 @@ body {
 .footer-contacts-address-phone:hover {
   color: #756157;
 }
+
 .footer-contacts-address-phone:focus {
   color: #756157;
 }
+
 .footer-contacts-address-phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
+
 .htmlacademy-link:hover,
 .htmlacademy-link:focus {
   fill: #756157;
 }
+
 .htmlacademy-link:active {
   fill: rgba(117, 97, 87, 0.3)
 }
-.button-want-here:hover {background: #615048;}
-.button-want-here:focus {background: #615048;}
-.button-want-here:active {color: rgba(255, 255, 255, 0.3); background: #756157;}
-.button-want-here:disabled {background: #E5E5E5;}
+
+.button-want-here:hover {
+  background: #615048;
+}
+
+.button-want-here:focus {
+  background: #615048;
+}
+
+.button-want-here:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #756157;
+}
+
+.button-want-here:disabled {
+  background: #E5E5E5;
+}
 
 
 
 .button-more-detailed:hover {
   background: #615048;
 }
+
 .button-more-detailed:focus {
   background: #615048;
 }
+
 .button-more-detailed:active {
   background: #756157;
-  color: rgba(255, 255, 255, 0.3);;
+  color: rgba(255, 255, 255, 0.3);
+  ;
 }
+
 .button-more-detailed:disabled {
   background: #E5E5E5;
 }
+
 .button-to-favorites:hover {
   background: #68A2CA;
 }
+
 .button-to-favorites:focus {
   background: #68A2CA;
 }
+
 .button-to-favorites:active {
   background: #82B3D3;
-  color: rgba(255, 255, 255, 0.3);;
+  color: rgba(255, 255, 255, 0.3);
+  ;
 }
+
 .button-to-favorites:disabled {
   background: #E5E5E5;
 }
+
 .button-to-favorites-green:hover {
   background: #6C9E42;
 }
+
 .button-to-favorites-green:focus {
   background: #6C9E42;
 }
+
 .button-to-favorites-green:active {
   background: #7DB54F;
-  color: rgba(255, 255, 255, 0.3);;
+  color: rgba(255, 255, 255, 0.3);
+  ;
 }
+
 .button-to-favorites-green:disabled {
   background: #E5E5E5;
 }
+
 .product-list li:nth-child(3) {
   margin-right: 0;
 }
+
 .product-card {
   list-style-type: none;
   width: 340px;
@@ -910,7 +955,22 @@ body {
   border-radius: 4px;
 }
 
-.button-search-hotels-in-sedona:hover {background: #615048;} .button-search-hotels-in-sedona:focus {background: #615048;} .button-search-hotels-in-sedona:active {color: rgba(255, 255, 255, 0.3); background: #756157;} .button-search-hotels-in-sedona:disabled {background: #E5E5E5;}
+.button-search-hotels-in-sedona:hover {
+  background: #615048;
+}
+
+.button-search-hotels-in-sedona:focus {
+  background: #615048;
+}
+
+.button-search-hotels-in-sedona:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #756157;
+}
+
+.button-search-hotels-in-sedona:disabled {
+  background: #E5E5E5;
+}
 
 .advantages-values-white {
   width: 230px;
@@ -975,7 +1035,7 @@ body {
   width: 452px;
   height: 46px;
   background: #F2F2F2;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
 }
 
 .top {
@@ -1118,14 +1178,14 @@ body {
 
 .advantages-beautiful-road-text::after {
   content: "";
-    position: absolute;
-    left: -14%;
-    bottom: -4px;
-    width: 60px;
-    height: 2px;
-    transform: skew(0deg) translateX(189%);
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 1;
+  position: absolute;
+  left: -14%;
+  bottom: -4px;
+  width: 60px;
+  height: 2px;
+  transform: skew(0deg) translateX(189%);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .few-tourists {
@@ -1231,14 +1291,14 @@ body {
 
 .advantages-few-tourists-text::after {
   content: "";
-    position: absolute;
-    left: -14%;
-    bottom: -4px;
-    width: 60px;
-    height: 2px;
-    transform: skew(0deg) translateX(189%);
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 1;
+  position: absolute;
+  left: -14%;
+  bottom: -4px;
+  width: 60px;
+  height: 2px;
+  transform: skew(0deg) translateX(189%);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .advantages-values {
@@ -1255,7 +1315,7 @@ body {
 
 .button-newsletter {
   border: none;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   text-transform: uppercase;
   font-style: normal;
   line-height: 36px;
