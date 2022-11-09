@@ -563,18 +563,15 @@ body {
 }
 
 .advantages-description-catalog {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 90px;
   padding-left: 363px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-  text-align: center;
-  flex-wrap: wrap;
-  width: 475px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 475px;
 }
 
 .interested {
@@ -801,7 +798,7 @@ body {
 }
 
 .subscribe {
-  padding-top: 96px;
+  padding-top: 34px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -845,6 +842,8 @@ body {
 .newsletter-form {
   display: flex;
   align-self: center;
+  padding-top: 50px;
+  padding-bottom: 104px;
 }
 
 .pagination-link {
