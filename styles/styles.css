@@ -530,12 +530,15 @@ body {
 }
 
 .advantages-description-white {
+  padding-bottom: 54px;
+  padding-top: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
   text-align: center;
+  margin: 0;
 }
 
 .advantages-description-main {
@@ -813,6 +816,7 @@ body {
 }
 
 .subscribe-white {
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -870,7 +874,6 @@ body {
 }
 
 .button-want-here {
-
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -882,9 +885,9 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  padding: 8px 50px;
+  padding: 8px 34px;
   border-radius: 4px;
-  height: 36px;
+  height: 20px;
 }
 
 .button-show-icons,
@@ -1353,6 +1356,7 @@ body {
 }
 
 .advantages-subscribe {
+  height: 215px;
   padding-top: 96px;
   padding-bottom: 104px;
   padding-left: 258px;
