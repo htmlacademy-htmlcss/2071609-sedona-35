@@ -842,6 +842,13 @@ body {
 .newsletter-form {
   display: flex;
   align-self: center;
+  padding-top: 4px;
+  padding-bottom: 104px;
+}
+
+.newsletter-form-catalog {
+  display: flex;
+  align-self: center;
   padding-top: 50px;
   padding-bottom: 104px;
 }
