@@ -82,7 +82,9 @@ li {
   z-index: 2;
 }
 
-.modal-container-close {}
+.modal-container-close {
+  display: none;
+}
 
 .modal-title {
   margin: 0;
@@ -1260,6 +1262,24 @@ body {
   text-decoration: none;
   background-position: center;
   border: none;
+  cursor: pointer;
+}
+
+.button-apply:hover {
+  background: #68A2CA;
+}
+
+.button-apply:focus {
+  background: #68A2CA;
+}
+
+.button-apply:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-apply:disabled {
+  background: #E5E5E5;
 }
 
 .button-reset {
@@ -1278,6 +1298,27 @@ body {
   background-position: center;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+}
+
+.button-reset:hover {
+  color: #FFFFFF;
+  order: 0;
+}
+
+.button-reset:focus {
+  color: #FFFFFF;
+  order: 0;
+  border: #82B3D3;
+}
+
+.button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reset:disabled {
+  color: #FFFFFF;
+  opacity: 0.1;
 }
 
 .button-search-hotels-in-sedona {
