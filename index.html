@@ -86,6 +86,7 @@
         <h1 class="visually-hidden">Седона</h1>
         <div class="hero-page">
           <img class="logo-welcom" src="images/welcome.svg" width="458" height="352" alt="welcom">
+          <img class="logo-sav" src="images/sav.svg" width="1200" height="57" alt="пила">
         </div>
         <section class="advantages">
           <section class="advantages-list">
@@ -227,6 +228,49 @@
           </a>
         </div>
       </footer>
+    </div>
+    <div class="modal-container">
+      <div class="modal modal-auth">
+        <section class="modal-content">
+          <div class="modal-head">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <button class="modal-close-button" type="button">
+              <span class="visually-hidden">Закрыть</span>
+            </button>
+          </div>
+          <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="modal-group">
+              <p class="field-group">
+                <label class="arrival-date">Дата заезда:</label>
+                <input class="text-inrut" id="arrival" type="text" placeholder="27 апреля 2020">
+                <button class="button-date" type="button"></button>
+                <p class="date-text-red">Мы не можем отправить вас в прошлое.</p>
+            </div>
+            <div class="modal-group-two">
+              <p class="field-group">
+                <label class="arrival-date">Дата выезда:</label>
+                <input class="text-inrut-two" id="arrival" type="text" placeholder="1 сентября 2023">
+                <button class="button-date" type="button"></button>
+                <p class="date-text">На эти даты есть свободные номера. Пока есть.</p>
+            </div>
+            <div class="modal-group">
+              <label class="arrival-date">Взрослые:</label>
+              <span class="field-box">
+                <button class="field-button minus" type="button"></button>
+                <input class="field-number" id="abult" name="abult" type="number" value="2">
+                <button class="field-button plus" type="button"></button>
+              </span>
+              <label class="arrival-date">Дети:</label>
+              <span class="field-box">
+                <button class="field-button minus" type="button"></button>
+                <input class="field-number" id="abult" name="abult" type="number" value="2">
+                <button class="field-button plus" type="button"></button>
+              </span>
+            </div>
+            <a class="button-to-find" type="submit">Найти</a>
+          </form>
+        </section>
+      </div>
     </div>
   </body>
 
