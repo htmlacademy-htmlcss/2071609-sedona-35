@@ -122,6 +122,51 @@ li {
   margin: auto;
 }
 
+.tooltip-toggle {
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.tooltip-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tooltip {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.tooltip-text {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 15px 18px;
+  border-radius: 8px;
+  width: 256px;
+  position: absolute;
+  bottom: -125px;
+  margin-bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.tooltip-toggle:hover+.tooltip-text,
+.tooltip-toggle:focus+.tooltip-text {
+  display: block;
+}
+
 .date-text {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -194,6 +239,7 @@ li {
 }
 
 .field-box {
+  position: relative;
   margin: 0;
   padding: 0;
   width: 133px;
@@ -204,10 +250,27 @@ li {
   height: 48px;
 }
 
-.minus {
+.minus::before,
+.minus::after {
+  position: absolute;
   background-image: url("../images/minus.svg");
   background-repeat: no-repeat;
   background-position: center;
+  content: "";
+  width: 14px;
+  height: 2px;
+}
+
+.plus::before,
+.plus::after {
+  position: absolute;
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 14px;
+  height: 14px;
+  top: 17px;
 }
 
 .field-button {
