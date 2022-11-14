@@ -81,9 +81,7 @@ li {
   background: rgba(242, 242, 242, 0.8);
 }
 
-.modal-container-close {
-  display: none;
-}
+.modal-container-close {}
 
 .modal-title {
   margin: 0;
@@ -1375,6 +1373,8 @@ body {
 }
 
 .field {
+  padding-bottom: 5px;
+  border: none;
   width: 452px;
   height: 46px;
   background: #F2F2F2;
