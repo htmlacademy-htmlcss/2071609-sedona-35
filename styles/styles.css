@@ -1285,6 +1285,31 @@ body {
   cursor: pointer;
 }
 
+.control-radio {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.control-input[type="checkbox"]:checked+.control-radio::before,
+.control-input[type="checkbox"]:checked+.control-radio::after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-image: url(../images/check-mark-circle.svg);
+  background-position: center;
+  content: "";
+  background-repeat: no-repeat;
+  background: #3F5E72;
+  bottom: 5px;
+  left: 5px;
+  border-radius: 50%;
+}
+
 .control-mark {
   position: absolute;
   top: 2px;
