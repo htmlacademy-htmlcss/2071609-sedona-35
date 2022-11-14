@@ -166,7 +166,16 @@
                   <input class="field-from" placeholder="от" required>
                   <input class="field-before" placeholder="до" required>
                 </div>
-                <input class="field-price" type="range" min="0" max="9000">
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0; width: 195px">
+                    <button class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                </div>
               </div>
               <div class="catalog-products-button">
                 <button class="button-apply" type="submit">
