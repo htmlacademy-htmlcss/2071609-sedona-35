@@ -65,6 +65,7 @@ li {
   flex-wrap: wrap;
   width: 577px;
 }
+
 .modal-auth {
   max-width: 717px;
 }
@@ -190,7 +191,7 @@ li {
   justify-content: space-between;
 }
 
-.auth-form{
+.auth-form {
   box-sizing: border-box;
 }
 
@@ -343,7 +344,8 @@ body {
 .range-scale {
   margin-top: 48px;
   position: relative;
-  border: 4px solid #808080;;
+  border: 4px solid #808080;
+  ;
 }
 
 .range-bar {
@@ -1272,12 +1274,46 @@ body {
 }
 
 .control {
-
+  padding-left: 36px;
+  display: block;
+  position: relative;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+  cursor: pointer;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.control:hover .control-mark {
+  border-color: #83B3D3;
+}
+
+.control-input:disabled+.control-mark {
+  border-color: #242424;
+}
+
+.control-input[type="checkbox"]:checked+.control-mark::before,
+.control-input[type="checkbox"]:checked+.control-mark::after {
+  position: absolute;
+  width: 12px;
+  height: 10px;
+  background-image: url(../images/check-mark.svg);
+  background-position: center;
+  content: "";
+  background-repeat: no-repeat;
+  left: 4px;
+  bottom: 5px;
 }
 
 .catalog-filter-title {
