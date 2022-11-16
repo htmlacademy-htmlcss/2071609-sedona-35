@@ -143,25 +143,24 @@
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input" type="checkbox" name="hotel"
+                          <input class="visually-hidden control-input" type="radio" name="hotel"
                             value="shaving-supplies" checked>
-                          <span class="control-radio"></span>
+                          <span class="control-mark"></span>
                           <span class="control-label">Гостиница</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input" type="checkbox" name="motel"
-                            value="care-products">
-                          <span class="control-radio"></span>
+                          <input class="visually-hidden control-input" type="radio" name="motel" value="care-products">
+                          <span class="control-mark"></span>
                           <span class="control-label">Мотель</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input" type="checkbox" name="apartments"
+                          <input class="visually-hidden control-input" type="radio" name="apartments"
                             value="accessories">
-                          <span class="control-radio"></span>
+                          <span class="control-mark"></span>
                           <span class="control-label">Апартаменты</span>
                         </label>
                       </li>
@@ -172,8 +171,8 @@
               <div class="catalog-products-cost">
                 <p class="catalog-products-price">Стоимость,₽:</p>
                 <div class="catalog-filds-cost">
-                  <input class="field-from" placeholder="от" required>
-                  <input class="field-before" placeholder="до" required>
+                  <input class="field-from" placeholder="от" required value="0">
+                  <input class="field-before" placeholder="до" required value="9000">
                 </div>
                 <div class="range-scale">
                   <div class="range-bar" style="left: 0; width: 195px">
@@ -201,7 +200,7 @@
               <div class="select-control">
                 <p class="hotels-found">НАЙДЕНО ГОСТИНИЦ: <span>38</span></p>
                 <div class="buttons-to-choose-from">
-                  <select class="select-Control" aria-label="Сортировка">
+                  <select class="select-сontrol-choice" aria-label="Сортировка">
                     <option value="popular">Сначала дешёвые</option>
                     <option value="cheap">Сначала популярные</option>
                     <option value="expensive">Сначала дорогие</option>
