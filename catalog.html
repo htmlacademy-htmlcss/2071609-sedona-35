@@ -117,20 +117,23 @@
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="checkbox" name="bed-head-for-men" checked>
-                          Бассейн
+                          <input class="visually-hidden control-input" type="checkbox" name="pool" checked>
+                          <span class="control-mark"></span>
+                          <span class="control-label">Бассейн</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="checkbox" name="homme-deep-cleansing-cool" checked>
-                          Парковка
+                          <input class="visually-hidden control-input" type="checkbox" name="parking-space" checked>
+                          <span class="control-mark"></span>
+                          <span class="control-label">Парковка</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="checkbox" name="so-intense">
-                          Wi-Fi
+                          <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+                          <span class="control-mark"></span>
+                          <span class="control-label">WI-Fi</span>
                         </label>
                     </ul>
                   </fieldset>
@@ -139,21 +142,25 @@
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="radio" name="product-group" value="shaving-supplies"
-                            checked>
-                          Гостиница
+                          <input class="visually-hidden control-input" type="radio" name="hotel"
+                            value="shaving-supplies" checked>
+                          <span class="control-mark"></span>
+                          <span class="control-label">Гостиница</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="radio" name="product-group" value="care-products">
-                          Мотель
+                          <input class="visually-hidden control-input" type="radio" name="motel" value="care-products">
+                          <span class="control-mark"></span>
+                          <span class="control-label">Мотель</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="control-input" type="radio" name="product-group" value="accessories">
-                          Апартаменты
+                          <input class="visually-hidden control-input" type="radio" name="apartments"
+                            value="accessories">
+                          <span class="control-mark"></span>
+                          <span class="control-label">Апартаменты</span>
                         </label>
                       </li>
                     </ul>
@@ -163,10 +170,19 @@
               <div class="catalog-products-cost">
                 <p class="catalog-products-price">Стоимость,₽:</p>
                 <div class="catalog-filds-cost">
-                  <input class="field-from" placeholder="от" required>
-                  <input class="field-before" placeholder="до" required>
+                  <input class="field-from" placeholder="от" required value="0">
+                  <input class="field-before" placeholder="до" required value="9000">
                 </div>
-                <input class="field-price" type="range" min="0" max="9000">
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0; width: 195px">
+                    <button class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                </div>
               </div>
               <div class="catalog-products-button">
                 <button class="button-apply" type="submit">
@@ -183,7 +199,7 @@
               <div class="select-control">
                 <p class="hotels-found">НАЙДЕНО ГОСТИНИЦ: <span>38</span></p>
                 <div class="buttons-to-choose-from">
-                  <select class="select-Control" aria-label="Сортировка">
+                  <select class="select-сontrol-choice" aria-label="Сортировка">
                     <option value="popular">Сначала дешёвые</option>
                     <option value="cheap">Сначала популярные</option>
                     <option value="expensive">Сначала дорогие</option>
