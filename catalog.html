@@ -5,6 +5,23 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
@@ -95,6 +112,7 @@
                         viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="m6.5.5-6 5.8v6.2h12V6.3L6.5.5Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z" fill="#fff" />
                         <path d="M4.5 10.5h1V8h2v2.5h1V7h-4v3.5Z" fill="#fff" /></svg>
+                      <span class="visually-hidden">Возврат на главную страницу</span>
                     </a>
                     <svg class="arrow" aria-hidden="true" focusable="false" width="8" height="11" viewBox="0 0 8 11"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +160,7 @@
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input" type="radio" name="hotel"
+                          <input class="visually-hidden control-input" type="radio" name="apartments"
                             value="shaving-supplies" checked>
                           <span class="control-mark"></span>
                           <span class="control-label">Гостиница</span>
@@ -150,7 +168,8 @@
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input" type="radio" name="motel" value="care-products">
+                          <input class="visually-hidden control-input" type="radio" name="apartments"
+                            value="care-products">
                           <span class="control-mark"></span>
                           <span class="control-label">Мотель</span>
                         </label>
@@ -175,10 +194,10 @@
                 </div>
                 <div class="range-scale">
                   <div class="range-bar" style="left: 0; width: 195px">
-                    <button class="range-toggle toggle-min">
+                    <button class="range-toggle toggle-min" type="button">
                       <span class="visually-hidden">Изменить минимальную цену.</span>
                     </button>
-                    <button class="range-toggle toggle-max">
+                    <button class="range-toggle toggle-max" type="button">
                       <span class="visually-hidden">Изменить максимальную цену.</span>
                     </button>
                   </div>
@@ -257,8 +276,8 @@
             <ul class="product-list">
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
-                  <img class="product-card-image" src="images/Hotel/hotel-Amara-Resort-&-Spa.jpg"
-                    alt="Каньёны звезное небо">
+                  <img class="product-card-image" width="300" height="212"
+                    src="images/hotel/hotel-amara-resort-i-spa.jpg" alt="Каньёны звезное небо">
                   <h3 class="product-card-title">Amara Resort & Spa</h3>
                 </a>
                 <div class="product-card-functional">
@@ -272,8 +291,8 @@
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
-                  <img class="product-card-image" src="images/Hotel/hotel-Villas-at-Poco-Diablo.jpg"
-                    alt="Горы ночное небо и радуга">
+                  <img class="product-card-image" width="300" height="212"
+                    src="images/hotel/hotel-villas-at-poco-diablo.jpg" alt="Горы ночное небо и радуга">
                   <h3 class="product-card-title">Villas at Poco Diablo</h3>
                 </a>
                 <div class="product-card-functional">
@@ -287,7 +306,8 @@
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
-                  <img class="product-card-image" src="images/Hotel/hotel-Desert-Quail-Inn.jpg" alt="Горы и рассвет">
+                  <img class="product-card-image" width="300" height="212" src="images/hotel/hotel-desert-quail-inn.jpg"
+                    alt="Горы и рассвет">
                   <h3 class="product-card-title">Desert Quail Inn</h3>
                 </a>
                 <div class="product-card-functional">
@@ -301,7 +321,8 @@
               </li>
               <li class="product-card">
                 <a class="product-card-link" href="product.html">
-                  <img class="product-card-image" src="images/Hotel/hotel-Green-Tree-Inn.jpg" alt="Горы и ночное небо">
+                  <img class="product-card-image" width="300" height="212" src="images/hotel/hotel-green-tree-inn.jpg"
+                    alt="Горы и ночное небо">
                   <h3 class="product-card-title">Green Tree Inn</h3>
                 </a>
                 <div class="product-card-functional">
@@ -316,8 +337,6 @@
             </ul>
             <div class="pagination-container">
               <ul class="pagination">
-                <li class="pagination-item">
-                </li>
                 <li class="pagination-item">
                   <a class="pagination-link-pagination-current">1</a>
                 </li>
