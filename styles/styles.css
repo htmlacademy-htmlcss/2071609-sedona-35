@@ -573,6 +573,7 @@ body {
 .catalog-products-images {
   display: block;
   background-image: url(../images/catalog-mountains.jpg);
+  background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   width: 1200px;
@@ -754,6 +755,7 @@ body {
   width: 1200px;
   height: 485px;
   background-image: url(../images/index-background.jpg);
+  background-color: #FFFFFF;
   margin: 0 auto;
   margin-top: 0;
 }
@@ -1105,10 +1107,10 @@ body {
 
 .footer-social-list {
   display: flex;
-    margin-top: 56px;
-    margin-bottom: 35px;
-    margin-left: 84px;
-    padding: 0;
+  margin-top: 56px;
+  margin-bottom: 35px;
+  margin-left: 84px;
+  padding: 0;
 }
 
 .footer-social-item {
@@ -1617,11 +1619,11 @@ body {
 }
 
 .field {
-  font-family: "PT Sans'" , sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+  font-family: "PT Sans'", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -1774,7 +1776,7 @@ line-height: 24px;
   height: 56px;
   position: relative;
   margin: 0;
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .advantages-beautiful-road-text::after {
@@ -2020,6 +2022,7 @@ line-height: 24px;
 
 .subscribe-images {
   background-image: url("../images/mauten-subskraibe.jpg");
+  background-color: #FFFFFF;
   background-size: 100%;
   width: 1200px;
   height: 415px;
