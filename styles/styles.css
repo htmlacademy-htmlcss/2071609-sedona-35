@@ -349,6 +349,11 @@ li {
   display: none;
 }
 
+.field-number::-moz-inner-spin-button,
+.field-number::-moz-outer-spin-button {
+  display: none;
+}
+
 
 .field-number {
   box-sizing: border-box;
@@ -429,6 +434,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
+  min-width: 1200px;
 }
 
 .page-header-logo {
@@ -691,12 +697,51 @@ body {
   bottom: -51px;
 }
 
+.logo-house {
+  width: 75px;
+  height: 72px;
+  background-image: url(/images/logo-house.svg);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  content: "";
+  right: 162px;
+}
+
+.logo-food {
+  width: 75px;
+  height: 72px;
+  background-image: url(/images/logo-food.svg);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  content: "";
+  right: 162px;
+}
+
+.logo-souvenirs {
+  width: 75px;
+  height: 76px;
+  background-image: url(/images/logo-souvenirs.svg);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  content: "";
+  right: 162px;
+}
+
 .logo-sav {
+  width: 1200px;
+  height: 57px;
+  background-image: url(/images/sav.svg);
+  margin: 0 auto;
   display: block;
-  margin: auto;
   position: relative;
   z-index: 1;
-  bottom: -76px;
+  top: 76px;
 }
 
 .advantages-list {
@@ -744,7 +789,7 @@ body {
   justify-content: center;
 }
 
-.Small-area {
+.small-area-text {
 
   width: 400px;
   height: 384px;
@@ -764,6 +809,9 @@ body {
 }
 
 .advantages-small-area-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   padding-left: 28px;
   justify-content: center;
   text-transform: uppercase;
@@ -774,11 +822,29 @@ body {
   position: relative;
 }
 
+.advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  padding-top: 102px;
+}
+
 .advantages-small-area-text::after {
   content: "";
   position: absolute;
   left: -14%;
-  bottom: -4px;
+  bottom: -13px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -883,13 +949,16 @@ body {
 }
 
 .navigation-link {
+  font-family: "PT Sans", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   min-height: 22px;
   min-width: 16px;
   position: relative;
   padding: 20px 16px;
   display: block;
-  line-height: 24px;
-  font-weight: 700;
   text-align: center;
   color: #000000;
   background: #FFFFFF;
@@ -1110,7 +1179,7 @@ body {
 }
 
 .htmlacademy-link:active {
-  fill: rgba(117, 97, 87, 0.3)
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .button-want-here:hover {
@@ -1239,6 +1308,7 @@ body {
   padding-bottom: 16px;
 }
 
+
 .control-input {
 
   font-style: normal;
@@ -1306,11 +1376,6 @@ body {
   padding: 8px 34px;
   border-radius: 4px;
   height: 20px;
-}
-
-.button-show-icons,
-.button-show-slides {
-  padding-right: 8px;
 }
 
 .breadcrumbs-item {
@@ -1467,6 +1532,10 @@ body {
   opacity: 0.6;
 }
 
+.control:hover>.control-mark {
+  border: 3px solid #83B3D3;
+}
+
 .control:active {
   opacity: 0.3;
 }
@@ -1496,9 +1565,6 @@ body {
   border-radius: 4px;
 }
 
-.control-mark:focus {
-  border: 3px solid #83B3D3;
-}
 
 .control-input[type="checkbox"]:checked+.control-mark::before,
 .control-input[type="checkbox"]:checked+.control-mark::after {
@@ -1655,7 +1721,7 @@ body {
   z-index: 1;
 }
 
-.Small-area {
+.small-area-text {
   margin: 0;
   padding: 0;
   display: flex;
@@ -1686,6 +1752,9 @@ body {
 }
 
 .advantages-beautiful-road-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   padding-left: 28px;
   justify-content: center;
   text-transform: uppercase;
@@ -1700,7 +1769,7 @@ body {
   content: "";
   position: absolute;
   left: -14%;
-  bottom: -4px;
+  bottom: -13px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -1727,6 +1796,7 @@ body {
 }
 
 .advantages-item-housing {
+  position: relative;
   width: 400px;
   height: 384px;
   margin: 0 auto;
@@ -1750,6 +1820,7 @@ body {
   height: 384px;
   margin: 0 auto;
   background: #FFFFFF;
+  position: relative;
 }
 
 .advantages-item-meal-logo {
@@ -1774,12 +1845,19 @@ body {
 }
 
 .buttons-to-choose-from {
-  width: 522px;
   height: 49px;
+  padding-right: 75px;
+  padding-top: 20px;
   display: flex;
-  padding-right: 70px;
-  padding-top: 25px;
-  justify-content: end;
+}
+
+.button-show-icons {
+  padding-left: 70px;
+}
+
+.button-show-slides {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .advantages-item-souvenirs {
@@ -1798,9 +1876,13 @@ body {
   height: 223px;
   text-align: center;
   justify-content: center;
+  position: relative;
 }
 
 .advantages-few-tourists-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   position: relative;
   padding-left: 43px;
   padding-bottom: 18px;
@@ -1832,7 +1914,21 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
+  color: #333333;
+}
+
+.advantages-values-body {
+  width: 230px;
+  height: 42px;
+  text-align: center;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .button-newsletter {
@@ -1876,7 +1972,6 @@ body {
   width: 292px;
   height: 49px;
   padding-left: 20px;
-  margin-right: 70px;
   font-style: normal;
   font: inherit;
   font-weight: 400;
@@ -1894,7 +1989,6 @@ body {
 
 .select-сontrol-choice:hover {
   border: 2px solid #68A2CA;
-
   order: 1;
 }
 
@@ -1905,7 +1999,6 @@ body {
 
 .select-сontrol-choice:active {
   border: 2px solid #3F5E72;
-
 }
 
 .subscribe-images {
