@@ -573,6 +573,7 @@ body {
 .catalog-products-images {
   display: block;
   background-image: url(../images/catalog-mountains.jpg);
+  background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   width: 1200px;
@@ -673,7 +674,7 @@ body {
   display: flex;
   width: 360px;
   margin: 0;
-  padding-left: 85px;
+  padding-left: 104px;
   list-style-type: none;
 }
 
@@ -754,6 +755,7 @@ body {
   width: 1200px;
   height: 485px;
   background-image: url(../images/index-background.jpg);
+  background-color: #FFFFFF;
   margin: 0 auto;
   margin-top: 0;
 }
@@ -820,6 +822,7 @@ body {
   width: 175px;
   height: 56px;
   position: relative;
+  margin-top: 12px;
 }
 
 .advantages {
@@ -844,7 +847,7 @@ body {
   content: "";
   position: absolute;
   left: -14%;
-  bottom: -13px;
+  bottom: -30px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -957,7 +960,7 @@ body {
   min-height: 22px;
   min-width: 16px;
   position: relative;
-  padding: 20px 16px;
+  padding: 20px 14px;
   display: block;
   text-align: center;
   color: #000000;
@@ -995,7 +998,7 @@ body {
 }
 
 .advantages-title-interested {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
@@ -1030,6 +1033,7 @@ body {
   color: #333333;
   text-align: center;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .advantages-description {
@@ -1103,9 +1107,9 @@ body {
 
 .footer-social-list {
   display: flex;
-  margin-top: 61px;
+  margin-top: 56px;
   margin-bottom: 35px;
-  margin-left: 103px;
+  margin-left: 84px;
   padding: 0;
 }
 
@@ -1124,6 +1128,7 @@ body {
   color: #000000;
   background: #FFFFFF;
   text-decoration: none;
+  margin-left: -11px;
 }
 
 .footer-social-vk:hover,
@@ -1509,11 +1514,12 @@ body {
   color: #FFFFFF;
   flex-wrap: wrap;
   text-align: center;
+  padding-top: 45px;
 }
 
 .htmlacademy-link {
   padding-top: 23px;
-  padding-right: 40px;
+  padding-right: 35px;
 }
 
 .control {
@@ -1613,6 +1619,11 @@ body {
 }
 
 .field {
+  font-family: "PT Sans'", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -1707,13 +1718,14 @@ body {
   text-transform: uppercase;
   flex-wrap: wrap;
   text-align: center;
+  margin: 0;
 }
 
 .advantages-white::after {
   content: "";
   position: absolute;
-  left: -13%;
-  bottom: -13px;
+  left: -12%;
+  bottom: -33px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -1763,13 +1775,15 @@ body {
   width: 175px;
   height: 56px;
   position: relative;
+  margin: 0;
+  padding-top: 10px;
 }
 
 .advantages-beautiful-road-text::after {
   content: "";
   position: absolute;
   left: -14%;
-  bottom: -13px;
+  bottom: -32px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -1890,14 +1904,14 @@ body {
   flex-wrap: wrap;
   margin: 0;
   width: 150px;
-  padding-top: 15px;
+  padding-top: 12px;
 }
 
 .advantages-few-tourists-text::after {
   content: "";
   position: absolute;
   left: -14%;
-  bottom: -4px;
+  bottom: -13px;
   width: 60px;
   height: 2px;
   transform: skew(0deg) translateX(189%);
@@ -1915,6 +1929,8 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  padding-top: 37px;
+  margin: 0;
 }
 
 .advantages-values-body {
@@ -1934,7 +1950,6 @@ body {
 .button-newsletter {
   border: none;
   border-radius: 0 4px 4px 0;
-  text-transform: uppercase;
   font-style: normal;
   line-height: 36px;
   font-size: 20px;
@@ -2007,6 +2022,7 @@ body {
 
 .subscribe-images {
   background-image: url("../images/mauten-subskraibe.jpg");
+  background-color: #FFFFFF;
   background-size: 100%;
   width: 1200px;
   height: 415px;
