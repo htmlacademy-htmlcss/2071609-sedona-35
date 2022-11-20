@@ -1987,6 +1987,10 @@ body {
   appearance: none;
 }
 
+.select-сontrol-choice::-moz-selection {
+  background-color: #FFFFFF;
+}
+
 .select-сontrol-choice:hover {
   border: 2px solid #68A2CA;
   order: 1;
