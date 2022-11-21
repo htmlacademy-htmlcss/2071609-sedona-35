@@ -176,8 +176,8 @@ li {
   display: none;
 }
 
-.tooltip-toggle:hover+.tooltip-text,
-.tooltip-toggle:focus+.tooltip-text {
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
   display: block;
 }
 
@@ -1546,11 +1546,11 @@ body {
   opacity: 0.3;
 }
 
-.control-input[type="radio"]+.control-mark {
+.control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:checked+.control-mark::before {
+.control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   top: 6px;
   left: 6px;
@@ -1572,8 +1572,8 @@ body {
 }
 
 
-.control-input[type="checkbox"]:checked+.control-mark::before,
-.control-input[type="checkbox"]:checked+.control-mark::after {
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
   position: absolute;
   width: 12px;
   height: 10px;
@@ -1898,7 +1898,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   position: relative;
-  padding-left: 43px;
+  padding-left: 40px;
   padding-bottom: 18px;
   display: flex;
   flex-wrap: wrap;
@@ -1930,6 +1930,33 @@ body {
   line-height: 21px;
   color: #333333;
   padding-top: 37px;
+  margin: 0;
+}
+
+.advantages-values-bot {
+  width: 230px;
+  height: 42px;
+  text-align: center;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  padding-top: 43px;
+  margin: 0;
+}
+.advantages-values-midl {
+  width: 230px;
+  height: 42px;
+  text-align: center;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  padding-top: 63px;
   margin: 0;
 }
 
